@@ -1,4 +1,4 @@
-package com.findtutor.web.controllers;
+package com.findtutor.web.controllers.advices;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by abduls on 1/24/17.
  */
 @Controller
-public class HelloWorld
+public class IndexController
 {
     @RequestMapping("/")
-    public String sayHello()
+    public String home()
     {
         return "index";
     }
